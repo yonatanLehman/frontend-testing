@@ -104,7 +104,7 @@ describe('calculator app', function () {
       await operatorEquals.click()
 
       await eyes.checkWindow('After calculating 42 * 2 =')
-	        await digit4Element.click()
+	  await digit4Element.click()
       await digit2Element.click()
       await operatorMultiply.click()
       await digit2Element.click()
@@ -112,7 +112,7 @@ describe('calculator app', function () {
 	  await digit2Element.click()
       await operatorEquals.click()
 
-      await eyes.checkWindow('After calculating 42 * 2 * 2 =')
+      await eyes.checkWindow('After calculating 42*2*2=')
     })
   })
 })
