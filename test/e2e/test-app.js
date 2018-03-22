@@ -54,7 +54,7 @@ describe('calculator app', function () {
 
     await digit4Element.click()
     await digit2Element.click()
-    await operatorMultiply.click() 
+    await operatorMultiply.click()
     await digit2Element.click()
     await operatorEquals.click()
 
